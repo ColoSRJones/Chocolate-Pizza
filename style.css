@@ -1,6 +1,8 @@
 body{
    margin: 0px 30px;
    padding: 60px;
+    background-color:#ececec;
+    color: #333;
 }
 header{
 	width: 100%;
@@ -31,4 +33,17 @@ main{
 	display: block;
 	width: 900px;
 }
+footer{
+  display: inline-block;
+}
+
+.blogger, .share-recipe, .foot-image{
+   float: left;
+}
+
+button {
+    background-color: #BC7058;
+    color: #666;
+}
+
 
