@@ -3,7 +3,24 @@ html, body {
     box-sizing: border-box;
 }
 
-footer{
-    
+body{
+    background-color:#ececec;
+    color: #333;
 }
+
+
+footer{
+  display: inline-block;
+
+}
+
+.blogger, .share-recipe, .foot-image{
+   float: left;
+}
+
+button {
+    background-color: #BC7058;
+    color: #666;
+}
+
 
