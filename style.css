@@ -1,9 +1,34 @@
-
-html, body {
-    box-sizing: border-box;
+body{
+   margin: 0px 30px;
+   padding: 60px;
 }
+header{
+	width: 100%;
+	border-bottom: 3px;
+	overflow: hidden;
+}
+#logo{
+	display: block;
+	
+}
+.logo-text h2{
+	font-family: 'Lobster', cursive;
+	float: 
+}
+.logo-text h3{
 
-footer{
-    
+}
+.icons{
+	width: 25%;
+	float: right;
+}
+#pizza{
+	width: 100%;
+	margin: 15px;
+	padding: 15px;
+}
+main{
+	display: block;
+	width: 900px;
 }
 
