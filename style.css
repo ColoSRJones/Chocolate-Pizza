@@ -1,37 +1,79 @@
-body{
-   margin: 0px 30px;
-   padding: 60px;
-    background-color:#ececec;
-    color: #333;
-}
+/* font-family: 'Patrick Hand', cursive;
+font-family: 'Yellowtail', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cormorant Garamond', serif; */
+/* ---------------- */
+
 header{
-	width: 100%;
-	border-bottom: 3px;
-	overflow: hidden;
+    margin-top: 30px;
+    width:901px;
+    margin:45px auto;
+    height: 100px;
+
+    
 }
-#logo{
-	display: block;
-	
+
+header img{
+    float:left;
 }
-.logo-text h2{
-	font-family: 'Lobster', cursive;
-	float: 
-}
-.logo-text h3{
+
+nav li{
+    display: inline-block;
 
 }
-.icons{
-	width: 25%;
-	float: right;
+
+nav ul{
+    float:right;
+    margin-top: 10px;
+    vertical-align: text-top;
+
 }
-#pizza{
-	width: 100%;
-	margin: 15px;
-	padding: 15px;
+
+
+header dl {
+    float:left;
+    margin-left: 10px;
 }
-main{
-	display: block;
-	width: 900px;
+
+header dt {
+    font-family: 'Yellowtail', cursive;
+    font-size: 32px;
+
+
+}
+header dd {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+
+}
+
+hr {
+    clear: both;
+
+}
+main {
+    width:901px;
+    margin:45px auto;
+}
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    
+
+}
+ main p{
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+main #print{
+    float:right;
+    margin-top: 10px;
+    vertical-align: text-top;
+    width:40px;
 }
 footer{
   display: inline-block;
